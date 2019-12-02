@@ -129,6 +129,54 @@ format_measure_converter_json
 => nrel_mimetype:
 	[application/json];;
 
+format_model_specification_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат компонента ПИ спецификации модели автомобиля (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of UI component model specification (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+format_autopart_searching_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат компонента ПИ поиска деталей автомобиля по критериям (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of UI component autopart searching (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
+format_auto_test_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат компонента ПИ эксспресс-теста на знание Правил дорожного движения (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of UI auto test (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;
+
 // ======= internet ========
 
 // --- google map ---

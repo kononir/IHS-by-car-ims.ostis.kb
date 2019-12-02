@@ -4,4 +4,7 @@ ui_external_languages -> scg_code; scs_code;
     example_code; 
     auto_help_system; 
     defects_indicator; 
-    measure_converter;;
+    measure_converter;
+    model_specification;
+    autopart_searching;
+    auto_test;;
